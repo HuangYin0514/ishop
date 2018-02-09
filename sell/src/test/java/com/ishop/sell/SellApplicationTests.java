@@ -11,6 +11,7 @@ public class SellApplicationTests {
 
 	@Test
 	public void contextLoads() {
+        System.out.println("fjlksj测试用户信息");
 	}
 
 }
