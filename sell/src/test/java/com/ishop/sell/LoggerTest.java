@@ -25,4 +25,10 @@ public class LoggerTest {
         log.warn("warn...");
         log.error(LoggerTest.class.toString());
     }
+
+    @Test
+    public void testCurrentTime() {
+        long timeMillis = System.currentTimeMillis();
+        System.out.println(timeMillis);
+    }
 }

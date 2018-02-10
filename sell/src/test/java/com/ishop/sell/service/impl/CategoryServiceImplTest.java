@@ -22,8 +22,8 @@ public class CategoryServiceImplTest {
     private CategoryServiceImpl categoryService;
 
     @Test
-    public void findone() {
-        ProductCategory result = categoryService.findone(1);
+    public void findOne() {
+        ProductCategory result = categoryService.findOne(1);
         Assert.assertEquals(new Integer(1),result.getCategoryId());
     }
 
